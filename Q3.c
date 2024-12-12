@@ -14,7 +14,7 @@ int main()
     temp = num;
 
     // first
-    for (first = num; first != 0; first /= 10)
+    for (first = num; first >= 10; first /= 10)
     {
     }
     printf("\nThe first digit of %d is: %d", temp, first);
